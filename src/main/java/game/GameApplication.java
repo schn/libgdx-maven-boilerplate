@@ -7,9 +7,10 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class GameApplication implements ApplicationListener {
-    Texture texture;
-    SpriteBatch batch;
-    float elapsed;
+
+    private Texture texture;
+    private SpriteBatch batch;
+    private float elapsed;
 
     @Override
     public void create () {
